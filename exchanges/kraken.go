@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/beldur/kraken-go-api-client"
+	krakenapi "github.com/beldur/kraken-go-api-client"
 	"github.com/fatih/structs"
-	"github.com/saniales/golang-crypto-trading-bot/environment"
+	"github.com/llazzaro/golang-crypto-trading-bot/environment"
 	"github.com/shopspring/decimal"
 )
 

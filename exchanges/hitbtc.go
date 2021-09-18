@@ -23,8 +23,8 @@ import (
 	"github.com/gofrs/uuid"
 
 	"github.com/juju/errors"
+	"github.com/llazzaro/golang-crypto-trading-bot/environment"
 	"github.com/saniales/go-hitbtc"
-	"github.com/saniales/golang-crypto-trading-bot/environment"
 	"github.com/shopspring/decimal"
 )
 

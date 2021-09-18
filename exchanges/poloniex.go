@@ -22,8 +22,8 @@ import (
 
 	"github.com/shopspring/decimal"
 
+	"github.com/llazzaro/golang-crypto-trading-bot/environment"
 	"github.com/pharrisee/poloniex-api"
-	"github.com/saniales/golang-crypto-trading-bot/environment"
 )
 
 // PoloniexWrapper provides a Generic wrapper of the Poloniex API.

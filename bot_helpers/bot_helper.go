@@ -1,8 +1,8 @@
 package helpers
 
 import (
-	"github.com/saniales/golang-crypto-trading-bot/environment"
-	"github.com/saniales/golang-crypto-trading-bot/exchanges"
+	"github.com/llazzaro/golang-crypto-trading-bot/environment"
+	"github.com/llazzaro/golang-crypto-trading-bot/exchanges"
 	"github.com/shopspring/decimal"
 )
 

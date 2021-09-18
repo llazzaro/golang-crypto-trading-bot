@@ -15,7 +15,7 @@
 
 package main
 
-import "github.com/saniales/golang-crypto-trading-bot/cmd"
+import "github.com/llazzaro/golang-crypto-trading-bot/cmd"
 
 func main() {
 	bot.Execute()

@@ -3,7 +3,7 @@ module github.com/llazzaro/golang-crypto-trading-bot
 go 1.15
 
 require (
-	github.com/adshao/go-binance/v2 v2.2.0
+	github.com/adshao/go-binance/v2 v2.3.1
 	github.com/beldur/kraken-go-api-client v0.0.0-20210113103835-3f11c80eba1a
 	github.com/bitfinexcom/bitfinex-api-go v0.0.0-20210101155619-bb56f756df78
 	github.com/bwmarrin/discordgo v0.22.1

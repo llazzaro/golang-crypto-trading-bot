@@ -13,7 +13,7 @@ require (
 	github.com/gofrs/uuid v4.0.0+incompatible
 	github.com/juju/errors v0.0.0-20200330140219-3fe23663418f
 	github.com/nlopes/slack v0.6.0
-	github.com/pharrisee/poloniex-api v0.0.0-20200602104112-ce8fafd80b26
+	github.com/pharrisee/poloniex-api v0.0.0-20200602104112-ce8fafd80b26 // indirect
 	github.com/saniales/go-hitbtc v0.0.0-20190107211814-7468d66640dd
 	github.com/satori/go.uuid v1.2.0
 	github.com/shomali11/slacker v0.0.0-20201209125859-873a67578e50

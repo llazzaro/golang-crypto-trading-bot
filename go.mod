@@ -19,7 +19,7 @@ require (
 	github.com/shomali11/slacker v0.0.0-20201209125859-873a67578e50
 	github.com/shopspring/decimal v1.2.0
 	github.com/sirupsen/logrus v1.7.0
-	github.com/slack-go/slack v0.6.3
+	github.com/slack-go/slack v0.9.5
 	github.com/sourcegraph/jsonrpc2 v0.0.0-20200429184054-15c2290dcb37 // indirect
 	github.com/spf13/cobra v1.1.1
 	github.com/thebotguys/golang-bittrex-api v0.0.0-20180802202435-20ec1f520379

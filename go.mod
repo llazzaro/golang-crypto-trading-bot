@@ -23,7 +23,7 @@ require (
 	github.com/sourcegraph/jsonrpc2 v0.0.0-20200429184054-15c2290dcb37 // indirect
 	github.com/spf13/cobra v1.1.1
 	github.com/thebotguys/golang-bittrex-api v0.0.0-20180802202435-20ec1f520379
-	github.com/toorop/go-bittrex v0.0.2
+	github.com/toorop/go-bittrex v0.0.3
 	github.com/valyala/fasthttp v1.19.0 // indirect
 	gopkg.in/tucnak/telebot.v2 v2.3.5
 	gopkg.in/yaml.v2 v2.4.0

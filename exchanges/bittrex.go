@@ -102,12 +102,15 @@ func (wrapper *BittrexWrapper) GetOrderBook(market *environment.Market) (*enviro
 // BuyLimit performs a limit buy action.
 func (wrapper *BittrexWrapper) BuyLimit(market *environment.Market, amount float64, limit float64) (string, error) {
 	orderNumber, err := wrapper.api.CreateOrder(bittrex.CreateOrderParams{
-		Type:         bittrex.LIMIT,
-		TimeInForce:  bittrex.GOOD_TIL_CANCELLED,
-		MarketSymbol: MarketNameFor(market, wrapper),
-		Quantity:     decimal.NewFromFloat(amount),
-		Limit:        decimal.NewFromFloat(limit),
-		Direction:    bittrex.BUY,
+		MarketSymbol:  MarketNameFor(market, wrapper),
+		Direction:     bittrex.BUY,
+		Type:          bittrex.LIMIT,
+		Quantity:      decimal.NewFromFloat(amount),
+		Ceiling:       0,
+		Limit:         limit,
+		TimeInForce:   bittrex.GOOD_TIL_CANCELLED,
+		ClientOrderID: "",
+		UseAwards:     "",
 	})
 
 	return orderNumber.ID, err
@@ -116,12 +119,15 @@ func (wrapper *BittrexWrapper) BuyLimit(market *environment.Market, amount float
 // SellLimit performs a limit sell action.
 func (wrapper *BittrexWrapper) SellLimit(market *environment.Market, amount float64, limit float64) (string, error) {
 	orderNumber, err := wrapper.api.CreateOrder(bittrex.CreateOrderParams{
-		Type:         bittrex.LIMIT,
-		TimeInForce:  bittrex.GOOD_TIL_CANCELLED,
-		MarketSymbol: MarketNameFor(market, wrapper),
-		Quantity:     decimal.NewFromFloat(amount),
-		Limit:        decimal.NewFromFloat(limit),
-		Direction:    bittrex.SELL,
+		MarketSymbol:  MarketNameFor(market, wrapper),
+		Direction:     bittrex.SELL,
+		Type:          bittrex.LIMIT,
+		Quantity:      decimal.NewFromFloat(amount),
+		Ceiling:       0,
+		Limit:         limit,
+		TimeInForce:   bittrex.GOOD_TIL_CANCELLED,
+		ClientOrderID: "",
+		UseAwards:     "",
 	})
 
 	return orderNumber.ID, err
